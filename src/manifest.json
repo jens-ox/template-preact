@@ -1,0 +1,10 @@
+{
+  "name": "Preact App",
+  "short_name": "Preact App",
+  "description": "Sample Preact App Template",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#3490dc"
+}
