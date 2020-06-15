@@ -24,7 +24,7 @@ module.exports = (config, env, helpers, params) => {
   })
 
   // copy static files to root
-  config.plugins.push(new CopyWebpackPlugin([{ from: `./assets/static`, to: `../build/` }]))
+  config.plugins.push(new CopyWebpackPlugin([{ from: './assets/static', to: '../build/' }]))
 
   return config
 }
